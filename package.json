@@ -3,12 +3,12 @@
   "version": "1.0.0",
   "main": "index.js",
   "engines": {
-    "node": "16.x"
+    "node": ">=0.10.3 <15"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npx tsc && node build/index.js",
-    "start": "ts-node src/index.ts",
+    "start": "ts-node index.ts",
     "product": "set NODE_ENV=production && nodemon src/index.ts"
   },
   "repository": {
