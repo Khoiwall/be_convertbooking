@@ -6,7 +6,7 @@ import cookieParser from "cookie-parser";
 import fetch from "node-fetch";
 dotenv.config({ path: "./.env" });
 const app = express();
-const port = process.env.PORT || 3001;
+const port = process.env.PORT || 3002;
 
 app.use(cors());
 //connectDB
